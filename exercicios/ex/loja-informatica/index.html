@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Loja de Informática</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="inicio">
+      <h1>LOJA DE INFORMÁTICA</h1>
+
+
+       <div class="logotipo">
+            <img id="logo" src="logo.png" alt="Logo da loja" />
+        </div>
+
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contatos">Contatos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="sub">
+        <h2>Bem-vindo à nossa loja</h2>
+
+        <p>Os melhores equipamentos de informática para você.</p>
+      </section>
+
+      <section id="produtos">
+        <h2>Produtos</h2>
+
+        <article>
+          <h3>Mouse Gamer</h3>
+
+          <img src="mouse.png" alt="Mouse Gamer" />
+
+          <p>Mouse gamer de alta precisão.</p>
+
+          <p class="preco">R$ 250,00</p>
+
+          <button>Comprar</button>
+        </article>
+
+        <article>
+          <h3>Teclado Gamer</h3>
+
+          <img src="teclado.png" alt="Teclado Gamer" />
+
+          <p>Teclado mecânico para jogos.</p>
+
+          <p class="preco">R$ 350,00</p>
+
+          <button>Comprar</button>
+        </article>
+
+        <article>
+          <h3>Headset Gamer</h3>
+
+          <img src="fone.png" alt="Headset Gamer" />
+
+          <p>Headset com áudio de alta qualidade.</p>
+
+          <p class="preco">R$ 300,00</p>
+
+          <button>Comprar</button>
+        </article>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre</h2>
+
+        <p>
+          Somos uma loja especializada em produtos e equipamentos de
+          informática.
+        </p>
+      </section>
+
+      <section id="contatos">
+        <h2>Contato</h2>
+
+        <form action="/contato" method="post">
+          <label for="nome"> Nome: </label>
+
+          <input type="text" id="nome" name="nome" />
+
+          <br /><br />
+
+          <label for="email"> E-mail: </label>
+
+          <input type="email" id="email" name="email" />
+
+          <br /><br />
+
+          <label for="mensagem"> Mensagem: </label>
+
+          <textarea id="mensagem" name="mensagem"></textarea>
+
+          <a class="whatsapp" href="#">Falar no whatssap</a>
+
+          <br /><br />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="rodape">
+          <p class="ultimo">© 2026 Loja de Informática</p>
+      </div>
+    </footer>
+  </body>
+</html>

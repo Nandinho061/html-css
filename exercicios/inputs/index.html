@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inputs</title>
+  </head>
+  <body>
+    <h1>inputs do html</h1>
+    <form>
+      <!--nome-->
+      <label for="nome">nome</label>
+      <input type="text" id="nome" name="nome" required />
+      <br /><br />
+      <!--email-->
+      <label for="email">e-mail</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+      <!--senha-->
+      <label for="senha">senha</label>
+      <input type="password" id="senha" name="senha" required />
+      <br /><br />
+
+      <!--radio-->
+      <label>Genero:</label><br />
+      <input type="radio" name="Genero" id="masculino" />
+      <label for="masculino">masculino</label>
+      <input type="radio" name="Genero" id="feminino" />
+      <label for="feminino">feminino</label>
+      <br /><br />
+
+      <!--multipla checkbox-->
+      <label>interesses</label>
+      <input type="checkbox" id="backend" value="backend" name="interesses" />
+      <label for="backend">back-end</label>
+      <input type="checkbox" id="frontend" value="frontend" name="interesses" />
+      <label for="frontend">front-end</label>
+      <input type="checkbox" id="mobile" value="mobile" name="interesses" />
+      <label for="mobile">Mobile</label>
+      <br /><br />
+      <!--data-->
+      <label for="DataDeNascimento">Data De Nascimento</label>
+      <input type="date" id="DataDeNascimento" name="nascimento" />
+      <br /><br />
+      <!--arquivo(upload)-->
+      <label for="FotoDePerfil"> Foto De Perfil:</label>
+      <input type="file" name="avatar" id="FotoDePerfil" />
+
+      <br /><br />
+
+      <!--caixa de seleçao-->
+
+      <label for="situacao"> Situaçao</label>
+      <button type="submit">enviar</button>
+    </form>
+  </body>
+</html>

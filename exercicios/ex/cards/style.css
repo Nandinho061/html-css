@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgb(63, 77, 85);
+    color: aliceblue;
+}
+
+.logo img{
+    width: 5rem;
+    border-radius: 100%;    
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+a{
+    border: solid 1px #2babfa;
+    border-radius: 5rem;
+    padding: 1rem;
+    color: black;
+    background-color: rgb(179, 179, 179);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: .3s;
+}
+
+a:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #2babfa;
+
+}
+
+.bem{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+#produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+img{
+    width: 16rem;
+    border-radius: 3rem;
+}
+
+.produtos{
+    border: solid 1px #2babfa;
+    padding: 2rem;
+    border-radius: 3rem;
+    transition: .3s;
+    cursor: pointer;  
+}
+
+.produtos:hover{
+    transform: translateY(-9px);
+    box-shadow: 0 0 20px #2babfa;
+}
+
+#produtos h2{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    border-radius: 2rem;
+    border: solid 1px #2babfa;
+    transition: .3s;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: rgb(207, 207, 207);
+    margin-top: 1rem;
+}
+
+button:hover{
+    transform: translateY(-9px);
+    box-shadow: 0 0 20px #01fb47;
+}
+
+#sobre{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+#contato{
+
+    text-align: center;
+    
+}
+
+input{
+    text-align: left;
+    padding: .6rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+    max-width: 90%;
+}
+
+label{
+    display: flex;
+    margin: 1rem 0 ;
+}
+
+textarea{
+    margin-top: 1.8rem;
+}
+
+.logo{
+    text-align: center;
+}
+
+    .pai h1{
+        text-align: center;
+        
+    }

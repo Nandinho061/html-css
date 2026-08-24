@@ -1,0 +1,67 @@
+        /* seletor universal */
+    *{   
+        margin: 0;
+        padding: 0;
+    }
+    /* seletor de tag */
+    header,footer{
+
+        background-color: #333;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+    }
+    /* seletor de elementos aninhados */
+    nav a{
+
+        color: rgb(7, 210, 0);
+    }
+    /* seletor de filhos */
+    nav > a{
+        display: block;
+        color: aqua;
+        padding: 5px;
+    } 
+    /* seletor de classes */
+    .laranja{
+        color: #f5a623;
+
+    }
+    .verde{
+        color: chartreuse;
+    }
+    /* seletor de id */
+    #secao-principal{
+        padding: 20px;
+        text-align: center;
+
+    }
+    /* combinaçao de seletores */
+    #secao-principal > *{
+        margin-top: 10px;
+    }
+
+    input{
+        display: block;
+        padding: 5px;
+        margin: 5px;
+
+    }
+    /* seletor de sequencia */
+    input + input{
+       
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    h2 + p{
+        padding: 30px;
+    } 
+    /* seletores de propriedades */
+    input[name="email"] {
+        background-color: blue;
+
+    }
+    input[type="password"]{
+        background-color: aqua;
+    }
+
+

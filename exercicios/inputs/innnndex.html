@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios2.0</title>
+</head>
+<body>
+    <form>
+    <h1>formularios</h1>
+                <!--NOME-->
+    <label for="name">nome: <br></label>
+    <input type="text" id="name" name="nome" required>
+    <br><br>    <!--EMAIL-->    
+    <label for="email">email: <br></label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+                <!--SENHA-->
+    <label for="senha">senha: <br></label>
+    <input type="password" id="senha" name="senha" required> 
+   <br><br>
+   <label for="Telefone">Whatsapp: <br></label>
+   <input type="tel" id="Telefone" name="Whatsapp" placeholder="(DDD)">
+   <br><br>
+    <label>Genero:</label>
+    <label for="Masculino">Masculino:</label>
+    <input type="radio" id="Masculino" name="Genero">
+    <label for="Feminino">feminino:</label>
+    <input type="radio" id="Feminino" name="Genero">
+    <br><br>
+
+    <label>interesses:</label>
+    <label for="frontend">frontend:</label>
+    <input type="checkbox" id="frontend" value="frontend" name="frontend">
+    <label for="backend">backend:</label>
+    <input type="checkbox" id="backend" value="backend" name="backend">
+    <br><br>
+
+    <label></label>
+    <label for="data">data de nascimento:</label>
+    <input type="date" id="data" name="data de nascimento">
+    <br><br>
+
+    <label for="FotoDePerfil">Foto De Perfil:</label>
+    <input type="file" id="FotoDePerfil">
+    <br><br>
+    <select>
+    <option value="" selected disabled>selecione uma opçao...</option>
+    <option value="estudante">estudando para programador</option>
+    <option value="estagiario">atua como estagiario/treiner</option>
+    </select>
+    <br><br>
+    <label for="sobre">sobre mim:</label>
+    <textarea name="sobre" id="sobre" cols="50" rows="3" placeholder="Fale um Pouco Sobre você..."></textarea>
+    <br><br>
+
+
+    <button type="submit">login</button>
+
+    
+    </form>          
+
+    
+</body>
+</html>

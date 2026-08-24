@@ -1,0 +1,63 @@
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+main {
+    color: #fff;
+    border-radius: 25px;
+    transition: all 1.5s ease;
+    box-shadow: 0 15px 8px rgba(203, 203, 203, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 15px auto;
+}
+nav a {
+    background-color: #e6e6e6;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.insta { 
+    background-color: #fe4ec3;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+} 
+.youtube {
+    background-color: #f70505;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+.git {
+    background-color: #444343;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body
+{
+    background-image: url(topcriminal.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
