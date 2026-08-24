@@ -1,0 +1,152 @@
+    @import url('https://fonts.googleapis.com/css2?family=Rye&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor0:#fff;
+    --cor1:#393939;
+}
+header{
+    text-align: center;
+    font-family: 'rye',sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+   
+}
+nav{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+nav a{
+    margin: 10px 10px;
+    text-decoration: none;
+    transition: .3s;
+    color: #fff;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: translateY(-6px);
+    background-color: rgba(255, 0, 0, 0.563);
+    padding: 10px;
+    border-radius: 5px;
+}
+body{
+    background-color: var(--cor1);
+    color: #fff;
+    text-align: center;
+    
+}
+button{
+    margin: 30px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.563);
+    border: none;
+    border-radius: 20px;
+    color:#fff;
+    transition: .3s;
+}
+button:hover{
+    transform: translateY(-5px);
+}
+article{
+    margin: 20px 0;
+}
+article p {
+    
+    justify-content: center;
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+section{
+    margin: 30px;
+    padding: 20px;
+}
+section p {
+    padding: 20px;
+    font-size: 20px;
+}
+section h2{
+    padding: 20px;
+}
+section a{
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: .3s;
+}
+.insta:hover{
+    background-color: rgba(246, 77, 119, 0.748);
+}
+section > a:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 250, 37, 0.704);
+    padding: 5px;
+    border-radius: 10px;
+}
+footer{
+    padding: 7px;
+    background-color: #00000082;
+}
+
+@media (max-width:700px){
+     
+      header{
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        padding: 15px 5px;
+        font-size: 17px;
+    }
+
+    nav a{
+        margin: 0 5px;
+    }
+
+    article{
+        margin: 15px 10px;
+    }
+
+    article p{
+        font-size: 17px;
+        margin: 10px;
+    }
+
+    section{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    section p{
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    section h2{
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    section a{
+        display: inline-block;
+        margin: 8px;
+    }
+
+    button{
+        margin: 20px 10px;
+    }
+}
+     
