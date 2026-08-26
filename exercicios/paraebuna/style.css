@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ img{
+    width: 120px;
+    height: auto;
+    border: none;
+    clip-path: inset(0 0 0 2px);
+    
+    
+    
+}
+header h1{
+    text-decoration: underline;
+    padding: 2px;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+nav a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #72a5f8;
+    transition: .3s;
+    padding: 6px;
+    border-radius: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    border: solid 2px #0043fc;
+    transform: translateY(-3px);
+    color: #ffffff;
+}
+body{
+    background-color: rgb(62, 62, 68);
+    color: #ffffff;
+    text-align: center;
+}
+body p{
+    font-size: 18px;
+    
+}
+.producao,.setores,.seguranca {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    
+    
+}
+.producao article,.setores article,.seguranca article{
+    justify-content: center;
+    align-items: center;
+    border:  solid 2px #0043fc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px; 
+    transition: .3s; 
+     background-color: #ffffffd3;
+    border-radius: 20px;
+    color: #000000;
+     
+}
+.producao article:hover, .setores article:hover,.seguranca article:hover{
+    transform:translateY(-5px);
+    border: #11ff54 solid 2px;   
+}
+.seguranca{
+    padding-bottom: 90px;
+}
+.avisos{
+    padding: 20px;
+}
+.avisos > p {
+    padding: 10px;
+}
+.avisos h2{
+    padding-bottom: 20px;
+
+}
+footer{
+    padding: 7px;
+    background-color: #000000c2;
+    color: #ffffff;
+}
+
+.barra{
+   width: 300px;
+   height: 25px;
+   background-color: #fff;
+   border-radius: 20px;
+   margin: auto;
+   overflow: hidden; 
+    border: 2px solid #0043fc; 
+}
+.progresso{
+    width: 75%;
+    height: 100%;
+    background-color: #11ff54;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     transition: 0.5s;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 555px){
+    .producao,.setores,.seguranca{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
