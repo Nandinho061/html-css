@@ -16,6 +16,12 @@
             width: 600px;
             border-collapse: collapse;
         }
+        caption{
+            background-color: lightgray;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
         td, th{
             padding: 10px;
             border: solid 1px black;  
@@ -23,14 +29,19 @@
         .num{
             text-align: right;
         }
+       tr:nth-child(even){
+        background-color: rgba(169, 169, 169, 0.611);
+
+       }
     </style>
 </head>
 <body>
     <table>
+        <caption>Populaçao das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>Populaçao</th>
+                <th scope="col">Estados</th>
+                <th scope="col" style="width: 90px;">Populaçao</th>
             </tr>
         </thead>
         <tbody>
@@ -85,7 +96,7 @@
 
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td><strong>000</strong></td>
         </tfoot>
     </table>
