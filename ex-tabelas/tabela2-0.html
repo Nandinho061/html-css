@@ -11,6 +11,7 @@
         table{
             border-collapse: collapse;
             
+            
         }
         tr th,td{
             border: solid 1px black; 
@@ -24,15 +25,15 @@
         <h1>Tabela De Filmes</h1>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
             
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Beatriz</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -53,7 +54,7 @@
 
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Nandinho</td>
                 <td>jack sham</td>
                 <td>pele</td>
@@ -71,7 +72,7 @@
                 <td>BlockStory</td>
                 <td>Pes6</td>
             </tr>
-            
+             
         </tbody>
     </table>
     
