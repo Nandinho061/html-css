@@ -12,10 +12,10 @@ li{
     height: 250px;
     width: 400px;
     padding: 4px;
-    display: inline-block;
     border-radius: 4px;
     border:  transparent 3px solid;
     cursor: pointer;
+    display: inline-block;
     
 }
 .selected{ background-color: #333;
